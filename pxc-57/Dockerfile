@@ -43,6 +43,7 @@ RUN yum update -y \
 		hostname \
 		curl \
 		tzdata \
+		http://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/p/pv-1.4.6-1.el7.x86_64.rpm \
 	&& yum clean all
 
 # create mysql user/group before mysql installation
